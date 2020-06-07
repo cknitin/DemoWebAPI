@@ -12,7 +12,7 @@ namespace DemoWebAPI.Test
         public void Test1()
         {
             var returnValue = controller.GetWeatherName();
-            Assert.Equal("spring", returnValue.ToString());
+            Assert.Equal("winter", returnValue.ToString());
         }
     }
 }
