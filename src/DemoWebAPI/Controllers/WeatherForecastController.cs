@@ -42,7 +42,16 @@ namespace DemoWebAPI.Controllers
 
         public string GetWeatherName()
         {
-            return "spring";
+            return "winter";
+        }
+
+        public List<string> GetWeatherNameList()
+        {
+            List<string> WeatherList = new List<string>();
+            WeatherList.Add("Spring");
+            WeatherList.Add("Winter");
+            WeatherList.Add("Rainy");
+            return WeatherList;
         }
     }
 }
